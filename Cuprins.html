@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catalog</title>
+<link rel="stylesheet" href="catalog.css">
+</head>
+<body>
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+        <img src="123.jpg" style="width:30%">
+        <div class="text">
+            <a href = "https://github.com/veronicastefy/Laborator-5/blob/main/Pascu%20Veronica.html">Pascu Veronica</a>
+        </div>
+    </div>
+
+    <div class="mySlides fade">
+        <img src="345.jpg" style="width:30%">
+        <div class="text">
+            <a href="https://github.com/veronicastefy/Laborator-5/blob/main/Zdrafcu%20Gabriela.html">Zdrafcu Gabriela</a>
+        </div>
+    </div>
+
+    <div class="mySlides fade">
+        <img src="567.jpg" style="width:30%">
+        <div class="text">
+            <a href = "https://github.com/veronicastefy/Laborator-5/blob/main/Rosca%20David.html">Rosca David</a>
+        </div>
+    
+    </div>
+  
+<div class="mySlides fade">
+        <img src="789.jpg" style="width:30%">
+        <div class="text">
+            <a href = "https://github.com/veronicastefy/Laborator-5/blob/main/Simionov%20Alexandra.html">Simionov Alexandra</a>
+        </div>
+    
+    </div>
+</div>
+<div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+</div>
+<script>
+
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 3000);
+    }
+</script>
+
+<img src="100.jpg" width="800" height="500">
+<h1>Catalog</h1>
+<p><a href="Pascu Veronica.html"> Pascu Veronica</a></p>
+<p><a href="Zdrafcu Gabriela.html"> Zdrafcu Gabriela</a><p>
+<p><a href="Rosca David.html"> Rosca David</a><p> 
+<p><a href="Simionov Alexandra.html"> Simionov Alexandra</a><p>
+
+</body>
+</html>

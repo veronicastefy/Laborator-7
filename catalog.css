@@ -1,0 +1,24 @@
+body {
+background-color:palegreen;
+}
+
+h1 {
+color:teal;
+margin-left: 20px;
+text-align: center;
+font-style: normal;
+}
+p {
+color: darkslateblue;
+margin-left: 20px;
+text-align: center;
+font-style: normal;
+}
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+border-radius: 12px;
+opacity: 100%;
+}

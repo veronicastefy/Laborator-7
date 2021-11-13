@@ -1,0 +1,42 @@
+body {
+background-color:lavender;
+}
+
+h1 {
+color:mediumpurple;
+margin-left: 20px;
+text-align: center;
+font-style: normal;
+}
+p {
+color: darkslateblue;
+margin-left: 20px;
+text-align: center;
+font-style: normal;
+}
+address {color: darkslateblue;
+margin-left: 20px;
+text-align: center;
+font-style: italic;
+}
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+border-radius: 12px;
+opacity: 0.5;
+}
+table, tr, th, td {border-style: groove;
+background-color: darkseagreen;
+width: 200;
+height: 100;
+text-align: center;
+font-style: normal;
+margin-left: auto;
+margin-right: auto;
+}
+ul {
+light-style: square inside url("sqpurple.gif");
+font-style: normal;
+}
